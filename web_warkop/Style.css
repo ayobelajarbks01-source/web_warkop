@@ -1,0 +1,138 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: #3e2723;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav .menu li {
+    margin: 0 10px;
+  }
+  
+  nav .menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url("images/warkop.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #795548;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #5d4037;
+  }
+  
+  /* Tentang */
+  #tentang {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .img-bulat {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* Menu */
+  #menu {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Kontak */
+  #kontak {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background: #3e2723;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #5d4037;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #3e2723;
+    color: white;
+    padding: 15px;
+  }
+  
