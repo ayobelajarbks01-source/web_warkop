@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #3e2723;
+  color: #fff;
+  padding: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url("images/kopi.jpg") no-repeat center center/cover;
+  color: white;
+}
+
+/* Menu */
+#menu {
+  padding: 40px;
+  background: #f4f4f4;
+  text-align: center;
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu-item {
+  width: 200px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+.menu-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Kontak */
+#kontak {
+  padding: 40px;
+  text-align: center;
+}
+#kontak form input, #kontak form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+}
+#kontak form button {
+  background: #3e2723;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background: #3e2723;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
